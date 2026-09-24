@@ -1,0 +1,21 @@
+name: Sync from Upstream
+
+on:
+  schedule:
+    - cron: '25 */7 * * *' # Runs at 25 minutes past the hour, every 7 hours
+  workflow_dispatch: # on button click
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: tgymnich/fork-sync@v2.0
+        with:
+          owner: zacjmurphy
+          repo: dotfiles
+          merge_method: merge
+          pr_title: Sync from Upstream
+          pr_message: This automated pull request syncs the fork with the latest changes from upstream. No manual changes are expected.
+          base: main
+          head: main
