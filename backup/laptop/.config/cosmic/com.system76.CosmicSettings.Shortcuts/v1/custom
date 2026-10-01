@@ -1,0 +1,13 @@
+{
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "q",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+    ): System(AppLibrary),
+}

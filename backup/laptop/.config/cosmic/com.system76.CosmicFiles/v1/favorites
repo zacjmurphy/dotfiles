@@ -1,0 +1,8 @@
+[
+    Home,
+    Downloads,
+    Path("/mnt/cloud/Documents"),
+    Path("/mnt/cloud/Music"),
+    Path("/mnt/cloud/Pictures"),
+    Path("/mnt/cloud/Videos"),
+]
