@@ -1,0 +1,24 @@
+{
+    "dotfiles": [
+        {
+            "source": "~/.config",
+            "destination": "backup/proxmox/.config",
+            "type": "dir"
+        },
+        {
+            "source": "~/.bashrc",
+            "destination": "backup/proxmox/.bashrc",
+            "type": "file"
+        },
+        {
+            "source": "~/.bash_aliases",
+            "destination": "backup/proxmox/.bash_aliases",
+            "type": "file"
+        },
+        {
+            "source": "~/scripts",
+            "destination": "backup/proxmox/scripts",
+            "type": "dir"
+        }
+    ]
+}
