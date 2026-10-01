@@ -3,7 +3,7 @@
 # Load the JSON file
 BASE_DIR="$HOME/dotfiles"
 CONFIG_FILE="$BASE_DIR/config/laptop/dotfiles.json"
-FILES_DIR="$BASE_DIR/backup"
+FILES_DIR="$BASE_DIR/backup/laptop"
 
 echo "Backing up files to $FILES_DIR"
 echo "Using config file $CONFIG_FILE"

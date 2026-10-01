@@ -3,7 +3,7 @@
 # Load the JSON file
 BASE_DIR="$HOME/dotfiles"
 CONFIG_FILE="$BASE_DIR/config/proxmox/dotfiles.json"
-FILES_DIR="$BASE_DIR/backup"
+FILES_DIR="$BASE_DIR/backup/proxmox"
 
 # Check if the repository exists
 if [[ ! -d "$BASE_DIR" ]]; then
