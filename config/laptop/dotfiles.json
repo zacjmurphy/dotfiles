@@ -2,62 +2,57 @@
     "dotfiles": [
         {
             "source": "/home/zach/.config/cosmic",
-            "destination": "backup/laptop/.config/cosmic",
+            "destination": ".config/cosmic",
             "type": "dir"
         },
         {
             "source": "/home/zach/.config/fastfetch",
-            "destination": "backup/laptop/.config/fastfetch",
+            "destination": ".config/fastfetch",
             "type": "dir"
         },
         {
             "source": "/home/zach/.config/micro",
-            "destination": "backup/laptop/.config/micro",
+            "destination": ".config/micro",
             "type": "dir"
         },
         {
             "source": "/home/zach/.config/qt5ct",
-            "destination": "backup/laptop/.config/qt5ct",
+            "destination": ".config/qt5ct",
             "type": "dir"
         },
         {
             "source": "/home/zach/.config/qt6ct",
-            "destination": "backup/laptop/.config/qt6ct",
+            "destination": ".config/qt6ct",
             "type": "dir"
         },
         {
             "source": "/home/zach/.config/gtk-3.0",
-            "destination": "backup/laptop/.config/gtk-3.0",
+            "destination": ".config/gtk-3.0",
             "type": "dir"
         },
         {
             "source": "/home/zach/.config/gtk-4.0",
-            "destination": "backup/laptop/.config/gtk-4.0",
-            "type": "dir"
-        },
-        {
-            "source": "/home/zach/.vscode-oss",
-            "destination": "backup/laptop/.vscode-oss",
+            "destination": ".config/gtk-4.0",
             "type": "dir"
         },
         {
             "source": "/home/zach/.bashrc",
-            "destination": "backup/laptop/.bashrc",
+            "destination": ".bashrc",
             "type": "file"
         },
         {
             "source": "/home/zach/.gitconfig",
-            "destination": "backup/laptop/.gitconfig",
+            "destination": ".gitconfig",
             "type": "file"
         },
         {
             "source": "/home/zach/.bash_profile",
-            "destination": "backup/laptop/.bash_profile",
+            "destination": ".bash_profile",
             "type": "file"
         },
         {
             "source": "/home/zach/.bash_aliases",
-            "destination": "backup/laptop/.bash_aliases",
+            "destination": ".bash_aliases",
             "type": "file"
         }
     ]

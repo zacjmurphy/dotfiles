@@ -3,7 +3,7 @@
 # Load the JSON file
 BASE_DIR="$HOME/dotfiles"
 CONFIG_FILE="$BASE_DIR/config/laptop/dotfiles.json"
-FILES_DIR="$BASE_DIR/backup/laptop"
+FILES_DIR="$BASE_DIR/backup"
 
 # Check if the repository exists
 if [[ ! -d "$BASE_DIR" ]]; then
