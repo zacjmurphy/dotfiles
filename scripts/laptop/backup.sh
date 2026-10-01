@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Load the JSON file
-BASE_DIR="$HOME/zach/dotfiles"
+BASE_DIR="$HOME/dotfiles"
 CONFIG_FILE="$BASE_DIR/config/laptop/dotfiles.json"
 FILES_DIR="$BASE_DIR/backup/laptop"
 

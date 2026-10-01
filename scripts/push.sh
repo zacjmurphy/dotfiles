@@ -1,5 +1,5 @@
 #!/bin/bash
-BASE_DIR="$HOME/zach/dotfiles"
+BASE_DIR="$HOME/dotfiles"
 
 # Commit and push the changes to GitHub
 git -C "$BASE_DIR" add .
